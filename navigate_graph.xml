@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigate_graph"
+    app:startDestination="@id/trainigFragment">
+
+    <fragment
+        android:id="@+id/trainigFragment"
+        android:name="com.govind8061.homeandgymworkoutsmen.TrainigFragment"
+        android:label="fragment_trainig"
+        tools:layout="@layout/fragment_trainig" />
+    <fragment
+        android:id="@+id/energyFragment"
+        android:name="com.govind8061.homeandgymworkoutsmen.EnergyFragment"
+        android:label="fragment_energy"
+        tools:layout="@layout/fragment_energy" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.govind8061.homeandgymworkoutsmen.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+</navigation>
